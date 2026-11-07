@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Clear All Inputs",
+  "version": "1.0",
+  "description": "Click the extension icon to empty every input field on the current page.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Clear all input fields"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
